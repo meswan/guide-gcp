@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="/Users/meswan@ca.ibm.com/Box Sync/WAS/openLiberty/guide-cloud-gcp/finish/system/src/main/webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="/Users/meswan@ca.ibm.com/Box Sync/WAS/openLiberty/guide-cloud-gcp/finish/system/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/Users/meswan@ca.ibm.com/Box Sync/WAS/openLiberty/guide-cloud-gcp/finish/system/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>
