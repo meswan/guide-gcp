@@ -1,4 +1,3 @@
-Notes : Liberty GCP
 // INSTRUCTION: Please remove all comments that start INSTRUCTION prior to commit. Most comments should be removed, although not the copyright.
 // INSTRUCTION: The copyright statement must appear at the top of the file
 //
@@ -14,11 +13,39 @@ Notes : Liberty GCP
 :page-layout: guide
 :page-duration: 1 hour
 :page-releasedate: 2019-05-29
-:page-description: Explore how to deploy microservices to Google Kubernetes Engine (GKE) on Google Cloud Platform (GCP).
+:page-description: Explore how to deploy microservices to Kubernetes Engine (GKE) on Google Cloud Platform (GCP).
 :page-tags: ['Kubernetes', 'Docker', 'Cloud']
 :page-permalink: /guides/{projectid}
 :page-related-guides: ['kubernetes-intro', 'kubernetes-microprofile-config', 'kubernetes-microprofile-health', 'istio-intro']
 :common-includes: https://raw.githubusercontent.com/OpenLiberty/guides-common/master
+:source-highlighter: prettify
+:page-seo-title: Deploying microservices to Kubernetes Engine (GKE) on Google Cloud Platform (GCP)
+:page-seo-description: A tutorial on how to deploy microservices to GKE using <Helm> and <IBM Cloud Container Registry>
+:guide-author: Open Liberty
+= Deploying microservices to Google Cloud Platform
+
+[.hidden]
+NOTE: This repository contains the guide documentation source. To view the guide in published form, view it on the https://openliberty.io/guides/{projectid}.html[Open Liberty website^].
+
+Explore how to deploy microservices to Kubernetes Engine (GKE) on Google Cloud Platform (GCP).
+
+:minikube-ip: 192.168.99.100
+:kube: Kubernetes
+:hashtag: #
+:win: WINDOWS
+:mac: MAC
+:linux: LINUX
+:system-api: http://[hostname]:[system-node-port]/system/properties
+:inventory-api: http://[hostname]:[inventory-node-port]/inventory/systems
+
+
+// =================================================================================================
+// Introduction
+// =================================================================================================
+
+== What you'll learn
+
+You will learn how to deploy two microservices in Open Liberty containers to a {kube}
 cluster on Google Cloud  Platform.
 
 Kubernetes is an open source container orchestrator that automates many tasks involved in
